@@ -1,0 +1,270 @@
+body{
+  overflow-x: hidden;
+}
+.text-dark {
+    color: #101f41!important;
+}
+.nav-item.active > .nav-link{
+  color: #4d5bed !important;
+}
+.header.position-sticky{
+  top: 0px;
+  z-index: 100
+}
+.header.position-sticky .navbar{
+  background-color: white;
+  box-shadow: 0 .75rem .75rem 0.0375rem rgba(132,138,163,0.1) !important;
+
+}
+.nav--has-sub-menu >.nav-sub-menu{
+  border-top: 5px solid #4d5bed !important;
+}
+.navbar-nav .nav-item{
+  position: relative;
+}
+.custom-radio label, .custom-checkbox label {
+    line-height: 25px;
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    cursor: pointer;
+    color: #4d5bed;
+    font-size: .86rem;
+}
+.custom-radio label small, .custom-checkbox label small {
+    font-family: 'Bitter', serif;
+    font-size: 95%;
+}
+.custom-radio label input[type="radio"] + span::before, .custom-checkbox label input[type="checkbox"] + span::before {
+    font-family: 'Font Awesome 5 Free';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 1.2rem;
+    color: #4350e0;
+}
+.custom-radio label input[type="radio"] + span::before{
+  content: "\f111"
+}
+.custom-checkbox label input[type="checkbox"] + span::before{
+  content: "\f0c8";
+}
+.custom-radio label input[type="radio"]:checked + span::before{
+  content: "\f192";
+  font-weight: bold;
+}
+.custom-checkbox label input[type="checkbox"]:checked + span::before{
+  content: "\f14a";
+  font-weight: bold;
+}
+.bg-light2{
+  background-color: #4d5bed0d !important;
+}
+.f-12{
+    font-size: 12px !important
+}
+ul.green-checks-list li {
+    margin-bottom: .75rem;
+}
+ul.green-checks-list .h4, ul.green-checks-list h4 {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    line-height: 1.75rem;
+}
+.material-icons svg, .material-icons-fake svg {
+    width: 1.5em;
+    height: 1.5em;
+}
+.material-icons svg, .material-icons-fake svg path{
+  fill:#2fb173
+}
+
+.complete-coverage-list  li{
+  margin-bottom: .5rem;
+  color: #4d5bed
+}
+.section-hero p.lead {
+  max-width: 500px;
+}
+
+.bordered-input{
+  border-color: #4d5bed !important;
+}
+.sidebar.filter-sidebar{
+  top: 0%
+}
+.navbar-dark .navbar-nav .nav-sub-menu .nav-link {
+        color: #4f5464;
+}
+.navbar-sm .nav-link {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+.navbar-sm .navbar-nav > .nav-item {
+    margin-left: 1.4rem;
+}
+
+.container-sm{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn-xs {
+    padding: .2rem .8rem;
+    font-size: .9rem;
+}
+.dot-separator {
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.font-semibold{
+  font-weight: 500 !important
+}
+
+.text-secondary{
+  color: #ed7e1f !important;
+}
+
+label {
+    font-weight: 500;
+    font-size: .8rem;
+    margin-bottom: .3rem;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #4d5bed;
+    background-color: #4d5bed;
+}
+
+table{
+  font-size: .94rem
+}
+
+
+.bg-gray{
+  background-color: #F1F5FA
+}
+
+
+.user-thumb span {
+}
+.user-thumb img {
+    max-width: 150px;
+}
+.user-thumb figcaption {
+    position: absolute!important;
+    right: 16px;
+    top: 13px;
+    border: 1px solid #e2e6ea;
+    border-radius: 10px;
+}
+.user-thumb figcaption .dot-separator{
+  height: 8px;
+width: 8px;
+}
+
+.f-14{
+  font-size: 14px
+}
+.b-b {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.b-r {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+body.modal-open .modal-blur{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+/*#########-----Search v2 css start----##########*/
+
+.lq-search.search-bar-sm {
+  max-width: 58% !important;
+  z-index: 100;
+}
+.search-field input {
+    margin-right: 4px;
+
+}
+.search-btn {
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*#########-----Search v2 css End----##########*/
+
+/*###############--------Analytics CSS Start---------###############*/
+
+.page-nav .nav-link.active{
+  position: relative;
+}
+.page-nav .nav-link.active::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: #3646eb;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.btn-secondary:not(:disabled):not(.disabled).active {
+  background-color: #0d2050 !important;
+  border-color: #0d2050 !important;
+  color: #ffffff;
+}
+
+.graph-box small {
+  font-size: 11.2px;
+  display: block;
+}
+.graph-box .progress {
+  border-bottom: 1px solid #0d2050;
+}
+.graph-box:hover {
+  box-shadow: 0px 0px 0px 1px #3646eb;
+  cursor: pointer;
+}
+
+.graph-box {
+  margin-bottom: 5px;
+}
+
+.btn-sm {
+  font-size: .9rem;
+  padding: 6px 20px !important;
+  line-height: 1;
+}
+.btn-group.btn-group-sm label {
+  font-size: 12px;
+  color: #707582;
+}
+
+.page-nav .nav-link {
+  font-size: .79rem;
+  padding-top: .7rem !important;
+  padding-bottom: .8rem !important;
+}
+
+.bg-gradient {
+  background: #42275a;
+  background: -webkit-linear-gradient(to right, #42275a, #734b6d);
+  background: linear-gradient(to right, #0e2051, #3f5794);
+}
