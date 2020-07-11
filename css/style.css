@@ -238,7 +238,7 @@ filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
 .graph-box .progress {
   border-bottom: 1px solid #0d2050;
 }
-.graph-box:hover {
+.graph-box:hover, .graph-box.active {
   box-shadow: 0px 0px 0px 1px #3646eb;
   cursor: pointer;
 }
@@ -267,4 +267,30 @@ filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
   background: #42275a;
   background: -webkit-linear-gradient(to right, #42275a, #734b6d);
   background: linear-gradient(to right, #0e2051, #3f5794);
+}
+.f-12{
+  font-size: 12px !important;
+}
+.graph-box .progress {
+  overflow: visible;
+}
+.graph-box.graph-style-2 .progress-bar span {
+  font-size: 9px;
+  color: #0d2050;
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  opacity: 0;
+}
+.graph-box.graph-style-2:hover .progress-bar span, 
+.graph-box.graph-style-2.active .progress-bar span{
+  opacity: 1;
+}
+.graph-box.graph-style-2 .progress-bar{
+  position: relative;
+}
+
+.map-legends span {
+  height: 10px;
+  width: 10px;
 }
